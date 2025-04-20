@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Rubal Sharma</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content experience-page">
+            <h1 class="page-title">Experience</h1>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Jan 2025 – Present</div>
+                    <div class="timeline-content">
+                        <div class="timeline-title">Senior Data Engineer</div>
+                        <div class="timeline-details">
+                            <ul>
+                                <li>Architected and operate a <strong>Unified Data Platform (UDP)</strong> combining <strong>PySpark batch jobs</strong> with <strong>Spark Structured Streaming/Kafka</strong> real-time pipelines.</li>
+                                <li>Features <strong>Integrated Data Management (IDM)</strong> and <strong>Customer Data Platform (CDP)</strong> modules on S3, processing <strong>50+ million records/day</strong>.</li>
+                                <li>Feeds <strong>ClickHouse</strong> for banking analytics and powers context-driven agents, slashing manual report generation by <strong>35%</strong>.</li>
+                                <li>Built the CDP on S3 with end-to-end user profiling, detailed lineage, and a schema-evaluation framework, achieving <strong>45% data accuracy improvements</strong> in ClickHouse.</li>
+                                <li>Automated hundreds of monthly bank reports via <strong>LLM-driven agents</strong> within the UDP, eliminating <strong>90% of manual audits</strong> and raising customer engagement by <strong>30%</strong>.</li>
+                                <li>Embedded regulatory rules (<strong>KYC, GDPR, RBI</strong>) and schema validations into UDP ETL for automated, compliance-ready workflows.</li>
+                                <li>Engineered a standalone <strong>Data Archival Tool</strong> (<strong>PySpark, Apache Iceberg, Hive Metastore</strong> on S3) for migrating user data and rated objects.</li>
+                                <li>Archival tool supports <strong>JDBC reads</strong> from major RDBMS, scales to <strong>multi-terabyte workloads</strong>, and offers real-time monitoring with zero manual intervention.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2024 – Dec 2024</div>
+                    <div class="timeline-content">
+                        <div class="timeline-title">Data Engineer</div>
+                        <div class="timeline-details">
+                            <ul>
+                                <li>Designed and implemented a scalable, fault-tolerant in-house <strong>Data Migration Tool</strong> using PySpark for RDBMS (<strong>Oracle, SQL Server, MySQL, PostgreSQL</strong>) and MongoDB to MongoDB transfers.</li>
+                                <li>Tool features included <strong>configurable micro-batching, customizable reconciliation, auto-recovery, pause/resume</strong>, and real-time dashboards.</li>
+                                <li>Oversaw MongoDB migration deployments, tuning cluster configuration for <strong>high-throughput, low-latency writes</strong>.</li>
+                                <li>Developed a custom repartitioning strategy to standardize data chunks to <strong>128 MB</strong>, maximizing Spark performance.</li>
+                                <li>Enabled direct <strong>SFTP chunk ingestion</strong> into PySpark pipelines, reducing latency.</li>
+                                <li>Contributed to building an in-house <strong>Data Lakehouse and Data Warehouse</strong> for unified analytics and performance-tuned workloads.</li>
+                                <li>Applied pipeline optimization techniques: <strong>predicate pushdown, broadcast joins, caching, columnar formats (Parquet/ORC), dynamic resource allocation, bucketing, and shuffle tuning</strong>.</li>
+                                <li>Enforced strict <strong>PII protection</strong> via secure handling, dynamic masking, and regulatory compliance.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2023 – Sep 2024</div>
+                    <div class="timeline-content">
+                        <div class="timeline-title">Junior Data Engineer</div>
+                        <div class="timeline-details">
+                            <ul>
+                                <li>Developed a <strong>Sample Distribution Operator</strong> (<strong>PySpark, Python, Spark SQL</strong>) for creating ideal AI/ML training/prediction samples.</li>
+                                <li>Integrated <strong>Azure DevOps REST APIs</strong> with PySpark for custom employee performance modeling using transformed work item data.</li>
+                                <li>Enabled support for <strong>AWS S3, GCS, Azure Blob, and MinIO</strong> with purging logic for automated dataset lifecycle management (<strong>Boto3, gsutil, Azure SDKs</strong>).</li>
+                                <li>Integrated <strong>Apache Iceberg</strong> with S3, Hive Metastore, and Trino to enhance the data lake (<strong>schema evolution, time-travel, upserts</strong>).</li>
+                                <li>Optimized RDBMS update/upsert operations in PySpark pipelines (<strong>ODBC</strong>) by over <strong>60%</strong> using dynamic SQL, parallel tasks, and batch inserts.</li>
+                                <li>Automated and optimized the <strong>CCRA pipeline</strong> (Apache Spark), reducing processing time by over <strong>50%</strong> via memory optimization, AQE, caching, and parallelism.</li>
+                                <li>Evaluated <strong>Medallion, Star, and Snowflake schemas</strong> for data warehousing using data profiling and performance benchmarks.</li>
+                                <li>Upgraded <strong>70+ batch operations</strong> to hybrid real-time/batch workflows using <strong>Spark Streaming and Kafka</strong> (structured streaming, checkpointing, watermarking).</li>
+                                <li>Implemented full <strong>CRUD functionality</strong> for Snowflake via the <strong>Spark-Snowflake Connector</strong>, optimizing performance.</li>
+                                <li>Improved <strong>MongoDB and Cassandra</strong> write performance by up to <strong>60%</strong> through optimized PySpark write strategies (bulk writes, partition-aware ingestion, tuning).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2022 – Jul 2023</div>
+                    <div class="timeline-content">
+                        <div class="timeline-title">Graduate Engineer Trainee</div>
+                        <div class="timeline-details">
+                            <ul>
+                                <li>Developed and optimized <strong>60+ reusable data transformation operators</strong> for the Data Flow Engine (<strong>Java</strong>).</li>
+                                <li>Expanded engine integration to <strong>Big Data connections</strong> (HDFS, S3, Azure Blob, Kafka).</li>
+                                <li>Designed test cases (<strong>Cucumber, JUnit</strong>), refactored code, maintained high quality via <strong>SonarCloud</strong> (<strong>>80% coverage, <3% duplication, zero blockers</strong>).</li>
+                                <li>Participated in migrating from <strong>Apache Flink to Apache Spark</strong>, re-implementing <strong>60+ operators</strong> in PySpark.</li>
+                                <li>Integrated <strong>OpenTelemetry and ElasticSearch</strong> for observability; created <strong>Grafana dashboards</strong> for monitoring.</li>
+                                <li>Provided full support for engine connectors (<strong>RDBMS, NoSQL, various file formats</strong>).</li>
+                                <li>Developed a <strong>PySpark pipeline</strong> for retrieving and transforming AI predictions with performance enhancements.</li>
+                                <li>Delivered internal training on <strong>Java, PySpark, OpenTelemetry, Grafana</strong>, and the data platform.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Jan 2022 – Jul 2022</div>
+                    <div class="timeline-content">
+                        <div class="timeline-title">Data Engineering Intern – DataNext</div>
+                        <div class="timeline-details">
+                            <ul>
+                                <li>Spearheaded the <strong>"Engine Logger"</strong> (<strong>Java/Python, Log4j, SLF4J</strong>), reducing debugging time by <strong>50%</strong>.</li>
+                                <li>Enhanced <strong>"Signal Harvested"</strong> (Kafka CEP system) using <strong>Kafka Streams</strong>, improving throughput by <strong>30%</strong>.</li>
+                                <li>Refactored and optimized transformation operators (<strong>Java, functional programming</strong>), achieving <strong>2x performance improvement</strong>.</li>
+                                <li>Delivered bug fixes and production features, increasing customer satisfaction by <strong>25%</strong> (<strong>Git, JUnit/PyTest, Agile</strong>).</li>
+                                <li>Supported a cross-functional team using <strong>Agile methodologies</strong> (JIRA, stand-ups, retrospectives).</li>
+                                <li>Gained exposure to <strong>distributed systems, Kafka, logging infrastructure, and Docker</strong>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="nav-header">
+        <div class="nav-content">
+            <div class="home-logo">
+                <a href="index.html">
+                    <svg height="20" width="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2L1 12h3v9h6v-6h4v6h6v-9h3L12 2z"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="nav-buttons">
+                <a href="skills.html" class="nav-btn">Skills</a>
+                <a href="projects.html" class="nav-btn">Projects</a>
+                <a href="experience.html" class="nav-btn active">Experience</a>
+                <a href="awards.html" class="nav-btn">Awards</a>
+                <a href="certifications.html" class="nav-btn">Certifications</a>
+                <a href="contact.html" class="nav-btn">Contact</a>
+            </div>
+        </div>
+    </nav>
+</body>
+</html> 
